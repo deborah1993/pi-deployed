@@ -25,6 +25,12 @@ server.use((req, res, next) => {
   next();
 });
 
+server.use(
+  cors({
+    origin: "*",
+  })
+);
+
 server.use("/", routes);
 
 // Error catching endware.
