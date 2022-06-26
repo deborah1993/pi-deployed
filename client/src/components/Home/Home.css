@@ -1,5 +1,6 @@
 .body-home {
-  background-color:#050A30;
+  background-image: url("../../images/fondo.png");
+  background-repeat: repeat;
   min-height: 100vh;
   height: auto;
 }
