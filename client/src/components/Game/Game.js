@@ -18,7 +18,7 @@ function Game(props) {
         <p>{props.props.rating}</p>
       </div>
       <div className="card-footer">
-        <h5 className="genre-title">Generos:</h5>
+        <p className="genre-title">Generos:</p>
         {props.props.genres?.map((genre, i) => (
           <span key={i}>{genre.name}</span>
         ))}
