@@ -1,7 +1,7 @@
 .contenedor-filtros {
     display: flex;
     justify-content: flex-end;
-    background-color:#050A30;
+    background-color:transparent;
     color: white;
     font-weight: 600;
     font-size: 15px;
